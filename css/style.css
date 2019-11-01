@@ -62,7 +62,7 @@ h6 {
 }
 
 .section-header::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 60px;
@@ -114,12 +114,6 @@ h6 {
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
-}
-
-#header #logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -227,8 +221,6 @@ h6 {
   line-height: 1;
   font-size: 13px;
 }
-
-
 
 .nav-menu li.active.menu-active a:before {
   visibility: hidden;
@@ -359,9 +351,7 @@ h6 {
   display: none;
 }
 
- Mobile Nav body classes 
-
-body.mobile-nav-active {
+Mobile nav body classes body.mobile-nav-active {
   overflow: hidden;
 }
 
@@ -372,7 +362,6 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
-
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -429,7 +418,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
 }
 
-
 #intro .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -449,7 +437,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #992bdb;
   color: #fff;
 }
-
 
 /*--------------------------------------------------------------
 # About Section
@@ -499,11 +486,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Schedule Section
 --------------------------------------------------------------*/
 
-
 #schedule {
   padding: 60px 0 60px 0;
 }
 
+.nav {
+  display: block;
+}
 #schedule .nav-tabs {
   text-align: center;
   margin: auto;
@@ -539,12 +528,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .container-card {
   display: flex;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   max-width: 100%;
   margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
-          justify-content: center;
+  justify-content: center;
 }
 
 .movie-card {
@@ -568,42 +557,42 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .bad-boys {
-  background: url('../img/bad-boys.jpg');
+  background: url("../img/bad-boys.jpg");
   background-size: cover;
 }
 
 .charlies-angels {
-  background: url('../img/charlies-angels.jpg');
+  background: url("../img/charlies-angels.jpg");
   background-size: cover;
 }
 
 .earthbird {
-  background: url('../img/earthbird.jpg');
+  background: url("../img/earthbird.jpg");
   background-size: cover;
 }
 
 .joker {
-  background: url('../img/Joker.jpg');
+  background: url("../img/Joker.jpg");
   background-size: cover;
 }
 
 .motherless {
-  background: url('../img/motherless.jpg');
+  background: url("../img/motherless.jpg");
   background-size: cover;
 }
 
 .spies {
-  background: url('../img/spies.jpg');
+  background: url("../img/spies.jpg");
   background-size: cover;
 }
 
 .frozen {
-  background: url('../img/frozen-2.jpg');
+  background: url("../img/frozen-2.jpg");
   background-size: cover;
 }
 
 .prey {
-  background: url('../img/prey.jpg');
+  background: url("../img/prey.jpg");
   background-size: cover;
 }
 
@@ -620,21 +609,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 auto;
   color: #ffffff;
   font-size: 54px;
-  text-shadow: 0px 0px 20px #6abcea, 0px 5px 20px #6ABCEA;
-  opacity: .85;
+  text-shadow: 0px 0px 20px #6abcea, 0px 5px 20px #6abcea;
+  opacity: 0.85;
 }
 
 .header-icon:hover {
   background: rgba(0, 0, 0, 0.15);
   font-size: 74px;
-  text-shadow: 0px 0px 20px #6abcea, 0px 5px 30px #6ABCEA;
+  text-shadow: 0px 0px 20px #6abcea, 0px 5px 30px #6abcea;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   opacity: 1;
 }
 
 .movie-card:hover {
-          transform: scale(1.03);
+  transform: scale(1.03);
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
 }
 
@@ -643,7 +632,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
-.movie-content-header, .movie-info {
+.movie-content-header,
+.movie-info {
   display: table;
   width: 100%;
 }
@@ -686,7 +676,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .info-section label {
   display: block;
   color: rgba(0, 0, 0, 0.5);
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   font-size: 9px;
 }
 
@@ -695,13 +685,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 11px;
 }
 
-  .container-card {
-    padding: 0;
-    margin: 0;
-  }
+.container-card {
+  padding: 0;
+  margin: 0;
+}
 
-
-.box{
+.box {
   width: 1200px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -859,7 +848,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #481a64;
 }
 
-
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
@@ -908,8 +896,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-
-#contact  input,
+#contact input,
 #contact textarea {
   padding: 10px 14px;
   border-radius: 0;
@@ -927,7 +914,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
-#contact  button[type="submit"]:hover {
+#contact button[type="submit"]:hover {
   background: #481a64;
 }
 
@@ -1045,7 +1032,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 26px;
 }
 
-
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
@@ -1070,7 +1056,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-
 #reservation button[type="submit"] {
   background: #992bdb;
   border: 0;
@@ -1081,7 +1066,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
-#contact  button[type="submit"]:hover {
+#contact button[type="submit"]:hover {
   background: #481a64;
 }
 /*--------------------------------------------------------------
@@ -1144,8 +1129,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 15px 0;
     transition: all 0.5s;
   }
-
-
 
   #mobile-nav-toggle {
     display: inline;
