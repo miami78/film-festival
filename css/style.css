@@ -411,7 +411,7 @@ h6 {
   display: none;
 }
 
-/* Mobile Nav body classes */
+ Mobile Nav body classes 
 
 body.mobile-nav-active {
   overflow: hidden;
@@ -424,6 +424,7 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
+
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -454,18 +455,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 0;
   top: 90px;
   right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
@@ -495,14 +487,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
-  display: inline-block;
   padding: 12px 32px;
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
   color: #fff;
-  -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #992bdb;
 }
@@ -512,33 +502,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-@-webkit-keyframes pulsate-btn {
-  0% {
-    -webkit-transform: scale(0.6, 0.6);
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-
-  100% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
-@keyframes pulsate-btn {
-  0% {
-    -webkit-transform: scale(0.6, 0.6);
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-
-  100% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
 
 /*--------------------------------------------------------------
 # About Section
