@@ -52,39 +52,6 @@ h6 {
   visibility: hidden;
 }
 
-
-/* Back to top button */
-
-.back-to-top {
-  position: fixed;
-  display: none;
-  background: #992bdb;
-  color: #fff;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  border-radius: 50px;
-  right: 15px;
-  bottom: 15px;
-  transition: background 0.5s ease-in-out;
-}
-
-.back-to-top i {
-  font-size: 24px;
-  padding-top: 6px;
-}
-
-.back-to-top:focus {
-  background: #481a64;
-  color: #fff;
-  outline: none;
-}
-
-.back-to-top:hover {
-  background: #481a64;
-  color: #fff;
-}
-
 /* Sections Header
 --------------------------------*/
 
@@ -197,25 +164,6 @@ h6 {
 
 .nav-menu ul li {
   min-width: 180px;
-}
-
-/* Nav Menu Arrows */
-
-.sf-arrows .sf-with-ul {
-  padding-right: 30px;
-}
-
-.sf-arrows .sf-with-ul:after {
-  content: "\f107";
-  position: absolute;
-  right: 15px;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
 }
 
 /* Nav Menu Container */
@@ -559,7 +507,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule .nav-tabs {
   text-align: center;
   margin: auto;
-  display: block;
   border-bottom: 0;
   margin-bottom: 30px;
 }
@@ -591,23 +538,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .container-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   max-width: 100%;
   margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
 }
 
 .movie-card {
   background: #ffffff;
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 315px;
   margin: 2em;
@@ -692,7 +634,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .movie-card:hover {
-  -webkit-transform: scale(1.03);
           transform: scale(1.03);
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
 }
@@ -754,19 +695,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 11px;
 }
 
-@media screen and (max-width: 500px) {
-  .movie-card {
-    width: 95%;
-    max-width: 95%;
-    margin: 1em;
-    display: block;
-  }
-
   .container-card {
     padding: 0;
     margin: 0;
   }
-}
+
 
 .box{
   width: 1200px;
@@ -975,31 +908,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-#contact #sendmessage {
-  color: #992bdb;
-  border: 1px solid #992bdb;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact  #sendmessage.show,
-#contact  #errormessage.show,
-#contact .show {
-  display: block;
-}
 
 #contact  input,
 #contact textarea {
@@ -1237,9 +1145,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: all 0.5s;
   }
 
-  #nav-menu-container {
-    display: none;
-  }
+
 
   #mobile-nav-toggle {
     display: inline;
@@ -1263,10 +1169,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
-  }
-
   #faq #faq-list a {
     font-size: 18px;
   }

@@ -29,24 +29,36 @@
   ============================-->
   <header id="header">
     <div class="container">
-
-      <div id="logo" class="center">
-        <a href="#intro" class="scroll"><img src="#" alt="" title=""></a>
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#venue">Venue</a></li>
-          <li><a href="#reservation">Reservation</a></li>
-          <li><a href="#faq">FAQS</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
+    <!--Navbar-->
+      <nav id="nav-menu-container" class="navbar navbar-expand-lg navbar-dark primary-color">
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu-collapse" 
+          aria-controls="nav-menu-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="nav-menu-collapse">
+      
+          <!-- Links -->
+          <ul class="nav-menu">
+              <li class="menu-active"><a href="#intro">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#venue">Venue</a></li>
+              <li><a href="#reservation">Reservation</a></li>
+              <li><a href="#faq">FAQS</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+          <!-- Links -->
+      
+        </div>
+        <!-- Collapsible content -->
+      
+      </nav>
+      <!--/.Navbar-->
     </div>
-  </header><!-- #header -->
+    </header><!-- #header -->
 
   <!--==========================
     Intro 
@@ -87,12 +99,12 @@
       Schedule 
     ============================-->
     <section id="schedule" class="section-with-bg">
-      <div class="container wow fadeInUp">
+      <div class="container">
         <div class="section-header">
           <h2>Event Schedule</h2>
         </div>
 
-        <ul class="nav nav-tabs" role="tablist">
+        <ul class="nav-tabs" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">5</a>
           </li>
@@ -327,7 +339,7 @@
     <!--==========================
       Venue 
     ============================-->
-    <section id="venue" class="wow fadeInUp">
+    <section id="venue">
 
       <div class="container-fluid">
 
@@ -358,7 +370,7 @@
     <!--==========================
       Reservation
     ============================-->
-    <section id="reservation" class="section-with-bg wow fadeInUp">
+    <section id="reservation" class="section-with-bg">
       <div class="container mt-5 pt-5">
         <div class="row">
           <form class="col-12 col-sm-6 mx-auto" action="">
@@ -403,7 +415,7 @@
     <!--==========================
       F.A.Q Section
     ============================-->
-    <section id="faq" class="wow fadeInUp">
+    <section id="faq">
 
       <div class="container">
 
@@ -463,7 +475,7 @@
       Subscribe Section
     ============================-->
     <section id="subscribe">
-      <div class="container wow fadeInUp">
+      <div class="container">
         <div class="section-header">
           <h2>Newsletter</h2>
           <p>Stay upto-date with our events.</p>
@@ -484,7 +496,7 @@
     <!--==========================
       Contact Section
     ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
+    <section id="contact" class="section-bg">
 
       <div class="container">
 
